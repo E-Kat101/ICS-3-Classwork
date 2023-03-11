@@ -1,5 +1,3 @@
-# pygame template
-
 import pygame
 from pygame.locals import K_ESCAPE, KEYDOWN, QUIT
 
@@ -171,8 +169,6 @@ while running:
     pygame.draw.circle(screen, (135, 60, 10), (fish2_x + 8, fish2_y + 9), 5)
     pygame.draw.ellipse(screen, (65, 3, 0), (fish2_x, fish2_y + 21, 14, 5))
 
-    # Must be the last two lines
-    # of the game loop
     pygame.display.flip()
     clock.tick(30)
     #---------------------------
